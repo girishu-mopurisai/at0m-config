@@ -6,10 +6,6 @@ spring:
       auto-index-creation: true
       database: at0m
 
-logging:
-  level:
-    root: info
-
 eureka:
   client:
     service-url:
