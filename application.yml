@@ -6,6 +6,10 @@ spring:
       auto-index-creation: true
       database: at0m
 
+logging:
+  level:
+    root: info
+
 eureka:
   client:
     service-url:
@@ -28,6 +32,3 @@ feign:
         logger-level: full
         read-timeout: 5000
         connect-timeout: 5000
-logging:
-  level:
-    root: info
