@@ -25,7 +25,7 @@ feign:
   client:
     config:
       default:
-        logger-level: full
+        logger-level: info
         read-timeout: 5000
         connect-timeout: 5000
 
